@@ -1,19 +1,16 @@
-import Head from "next/head";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Card, CardText, CardHeader, CardBody, Button } from "reactstrap";
 
 const Home = () => (
   <div className="container">
-    <Head>
-      <title>fulogy-landing-test</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
-    <main>
-      <p>Here is main text</p>
-    </main>
-
-    <footer>
-      <p>Here is footer text</p>
-    </footer>
+    <Card>
+      <CardBody>
+        <CardHeader>Hello Next.js!</CardHeader>
+        <br />
+        <CardText>Bootstrap 4 power!</CardText>
+        <Button color="danger">OK</Button>
+      </CardBody>
+    </Card>
 
     <style jsx>{`
       * {

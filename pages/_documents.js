@@ -6,6 +6,8 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <title>fulogy-landing-test</title>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />
