@@ -11,7 +11,6 @@ import About from "../components/About/About";
 import Reviews from "../components/Reviews/Reviews";
 import Footer from "../components/Footer/Footer";
 
-
 const Index = () => (
   <div className="container-fluid">
     <Header />
@@ -54,17 +53,20 @@ const Index = () => (
         box-sizing: border-box;
         font-family: "Muller";
       }
+      *:focus {
+        outline-width: 0px !important;
+      }
       :root {
         --main-column-padding: 30px;
         --font-weight-medium: 500;
         --font-weight-bold: 700;
         --font-weight-extra-bold: 900;
-        --main-color-white: #FFFFFF;
-        --main-color-black: #1A1A1A;
-        --main-color-purple: #5E50C2;
-        --main-color-yellow: #FFCF0D;
-        --main-color-yellow-hover: #FFE013;
-        --main-color-light-grey: #B3B3B3;
+        --main-color-white: #ffffff;
+        --main-color-black: #1a1a1a;
+        --main-color-purple: #5e50c2;
+        --main-color-yellow: #ffcf0d;
+        --main-color-yellow-hover: #ffe013;
+        --main-color-light-grey: #b3b3b3;
       }
     `}</style>
   </div>
